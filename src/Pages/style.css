@@ -1,0 +1,160 @@
+body {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+}
+.imageUrl{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+.description{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.description-data{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+.input-control {
+    width: 100%;
+    height: 42px !important;
+  }
+.text-input {
+    background: #ffffff 0% 0% no-repeat padding-box !important;
+    border: 1px solid #aaaaaa !important;
+    border-radius: 8px !important;
+}
+.login-container {
+    box-sizing: border-box !important;
+    width: 35%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    padding: 36px 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login-container .form-tittle {
+    text-align: center;
+    font: normal normal bold 25px/38px 'Roboto' !important;
+    letter-spacing: 0px;
+    color: #222222;
+  }
+
+
+  .login-container .already-account {
+    color: #222222;
+  }
+  .login-container .link {
+    text-decoration: none;
+  }
+
+  .register-form-container {
+    box-sizing: border-box !important;
+    width: 35%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    padding: 36px 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .register-form-container .register-form-title {
+    text-align: center;
+    font: normal normal bold 25px/38px 'Roboto' !important;
+    letter-spacing: 0px;
+    color: #222222;
+  }
+
+  /* Login Form Container */
+  @media screen and (max-width: 1024px) {
+    .login-container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .login-container {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .login-container {
+      width: 90%;
+      margin-top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .login-container {
+      padding: 25px 32px;
+    }
+    .login-container .form-title {
+      font-size: 22px !important;
+    }
+    .login-container form {
+      margin-top: 20px !important;
+    }
+  }
+
+
+  /* Register Form Container */
+
+  @media screen and (max-width: 1024px) {
+    .register-form-container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .register-form-container {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .register-form-container {
+      width: 90%;
+      margin-top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .register-form-container {
+      padding: 25px 32px;
+    }
+    .register-form-container .register-form-title {
+      font-size: 22px !important;
+    }
+    .register-form-container form {
+      margin-top: 20px !important;
+    }
+    .register-form-container .MuiToggleButton-primary {
+      font-size: 9px !important;
+    }
+    .register-form-container .custom-checkbox {
+      padding-left: 20px !important;
+      padding-top: 0 !important;
+      font-size: 12px !important;
+    }
+    .register-form-container .control_indicator {
+      height: 12px !important;
+      width: 12px !important;
+    }
+  }
+  
